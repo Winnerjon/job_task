@@ -75,9 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             /// Weather button ui view
                             FloatingActionButton(
                               onPressed: () {
-                                context.read<WeatherBloc>().add(
-                                    const WeatherSearchEvent(
-                                        text: "Uzbekistan"));
+                                context.read<WeatherBloc>().add(WeatherSearchLocationEvent());
                               },
                               child: const Icon(Icons.cloud),
                             ),

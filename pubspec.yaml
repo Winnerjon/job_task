@@ -20,6 +20,8 @@ dependencies:
   provider: ^6.0.5
   #for network
   http: ^0.13.6
+  #for current location
+  geolocator: ^9.0.2
 
 dev_dependencies:
   flutter_test:

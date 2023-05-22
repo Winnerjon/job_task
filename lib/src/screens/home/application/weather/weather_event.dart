@@ -12,3 +12,5 @@ class WeatherSearchEvent extends WeatherEvent {
 
   const WeatherSearchEvent({required this.text});
 }
+
+class WeatherSearchLocationEvent extends WeatherEvent {}
