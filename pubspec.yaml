@@ -22,20 +22,30 @@ dependencies:
   http: ^0.13.6
   #for current location
   geolocator: ^9.0.2
+  model_viewer_plus: ^1.5.0
+  easy_localization: ^3.0.2
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
+  inview_notifier_list: ^3.0.0
+  flutter_yandex_ads: ^1.0.0+1
 
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  build_runner: ^2.3.0
+  freezed: ^2.3.5
+  json_serializable: ^6.7.0
 
 flutter:
 
   uses-material-design: true
 
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+   - assets/images/
+   - assets/lang/
 
   # fonts:
   #   - family: Schyler
